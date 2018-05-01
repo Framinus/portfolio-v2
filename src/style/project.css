@@ -1,0 +1,12 @@
+.project-container {
+  margin: 10px;
+  max-width: 80%;
+}
+
+
+@media (min-width: 600px) {
+  .project-container {
+    margin: 40px;
+    max-width: 40%;
+  }
+}
