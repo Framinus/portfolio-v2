@@ -11,3 +11,7 @@
 .writing-container h2 {
   align-self: center;
 }
+
+.writing-container a:hover {
+  color: #D81B60;
+}
