@@ -1,5 +1,30 @@
 .medium-article {
-  border: 1px solid red;
-  margin: 20px;
+  border: 1px solid black;
+  box-shadow: 1px 2px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px 10px;
   padding: 10px;
+}
+
+.article-text {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.medium-article p {
+  text-align: left;
+}
+
+.article-image {
+  margin: 2px 5px;
+}
+
+@media (min-width: 600px) {
+  .medium-article {
+    margin: 40px 60px;
+  }
 }

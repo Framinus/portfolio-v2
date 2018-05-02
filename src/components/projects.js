@@ -11,6 +11,7 @@ export default class Projects extends Component {
         {
           title: "Dragon Picnic",
           description: "A game where players merge dragons in different combinations to defeat the humans that keep invading their village!",
+          tech: 'React, Redux, Node, Express, PostgreSQL',
           gitlink: 'https://github.com/framinus/dragon-quest',
           livelink: 'https://dragon-picnic.herokuapp.com',
           imageurl: "/images/dragons-teaser.png",
@@ -19,6 +20,7 @@ export default class Projects extends Component {
         {
           title: "Roam",
           description: "A travel site for users to create profiles and read and post reviews of their favorite cities.",
+          tech: 'Node, Express, PostgreSQL, Ejs',
           gitlink: "https://github.com/Framinus/roam",
           livelink: "https://roam-travel-site.herokuapp.com",
           imageurl: "/images/roam-new-teaser.png",
@@ -30,7 +32,7 @@ export default class Projects extends Component {
 
   render() {
     return (
-      <section>
+      <section className="projects-section">
         <h2>
           Projects
         </h2>
@@ -41,6 +43,7 @@ export default class Projects extends Component {
                 key={index}
                 title={project.title}
                 description={project.description}
+                tech={project.tech}
                 gitlink={project.gitlink}
                 livelink={project.livelink}
                 imageurl={project.imageurl}

@@ -19,6 +19,9 @@ export default function Project(props) {
         <CardText>
           {props.description}
         </CardText>
+        <CardText className="tech-list">
+          {props.tech}
+        </CardText>
         <CardActions>
           <a href={props.livelink}>
             <RaisedButton

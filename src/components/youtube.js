@@ -15,6 +15,7 @@ export default function YT (props) {
       <div
         className="video-player-16x9 video-player">
         <iframe
+          title="API Demo Series"
           src="https://www.youtube.com/embed/9ru0jZYbB04"
           height="200"
           width="375"

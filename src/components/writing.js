@@ -10,7 +10,8 @@ export default class Writing extends Component {
         {
           link: 'https://medium.com/queers-in-tech/server-side-json-web-token-implementation-with-postgresql-and-node-7278eb9dc1b2',
           title: 'Server Side JSON Web Token implementation with PostgreSQL and Node',
-          teaser: 'This article is going to walk through the process of creating a JSON Web Token and the Passport strategies needed on the server to authenticate a user. I am using Node.js and Express to create my server...'
+          teaser: 'This article is going to walk through the process of creating a JSON Web Token and the Passport strategies needed on the server to authenticate a user. I am using Node.js and Express to create my server...',
+          imageurl: '/images/token.png',
         },
       ]
     }
@@ -18,14 +19,16 @@ export default class Writing extends Component {
 
   render() {
     return (
-      <section>
-      <h2>My Writing</h2>
+      <section className="writing-container">
+      <h2>Writing</h2>
         {this.state.mediumArticles.map((article, index) => {
           return (
             <MediumArticle
+              key={index}
               link={article.link}
               title={article.title}
               teaser={article.teaser}
+              imageurl={article.imageurl}
             />
           );
         })}

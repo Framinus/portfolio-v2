@@ -1,8 +1,13 @@
 .project-container {
   margin: 10px;
   max-width: 80%;
+  text-align: center;
 }
 
+.tech-list {
+  font-size: 0.75em;
+  font-style: italic;
+}
 
 @media (min-width: 600px) {
   .project-container {

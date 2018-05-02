@@ -1,13 +1,12 @@
 .youtube-section {
   align-content: center;
+  border: 1px solid grey;
+  box-shadow: 1px 2px 1px grey;
   display: flex;
   font-family: 'Roboto', sans-serif;
   flex-direction: column;
   justify-content: center;
-}
-
-.youtube-blurb {
-  margin: 0 20px;
+  margin: 20px;
 }
 
 .video-description {

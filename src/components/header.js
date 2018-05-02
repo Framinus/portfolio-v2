@@ -5,7 +5,6 @@ export default function Header (props) {
   return (
     <header
       className="header"
-      primary={"true"}
       >
       <h1 className="my-name">
         James McCormack
@@ -14,13 +13,13 @@ export default function Header (props) {
         <nav className="menu left-menu">
           <ul>
             <li>
-              Projects
+              <a href="#">Projects</a>
             </li>
             <li>
-              Technical writing
+              <a href="#">Technical writing</a>
             </li>
             <li>
-              About me
+              <a href="#">About me</a>
             </li>
           </ul>
         </nav>
@@ -28,23 +27,24 @@ export default function Header (props) {
           <ul>
             <li>
               <a href="https://github.com/framinus">
-              GitHub
+              <i className="fab fa-github-square"></i>
               </a>
             </li>
             <li>
               <a href="https://twitter.com/jamesinbrevity">
-              Twitter
-              </a>
-            </li>
-            <li>
-              <a href="https://medium.com/@thejamesmccormack">
-              Medium
+              <i className="fab fa-twitter-square"></i>
               </a>
             </li>
             <li>
               <a href="https://www.youtube.com/channel/UC5jXMeE08sKTYKW_p_UhZ7A">
-              YouTube
+              <i className="fab fa-youtube-square"></i>
               </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/james-mccormack-185b0a99/"><i className="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://medium.com/@thejamesmccormack"><i className="fab fa-medium"></i></a>
             </li>
           </ul>
         </nav>

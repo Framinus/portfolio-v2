@@ -12,11 +12,10 @@ const muiTheme = getMuiTheme({
   palette: {
     primary1Color: greenA200,
     accent1Color: deepPurple900,
-  },
-  appBar: {
-    height: 50,
   }
 })
+
+
 
 class App extends Component {
   render() {

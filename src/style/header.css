@@ -1,4 +1,5 @@
 a {
+  color: #311B92;
   text-decoration: none;
 }
 
@@ -23,6 +24,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 .menu ul {
