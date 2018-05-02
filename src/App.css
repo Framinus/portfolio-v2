@@ -5,3 +5,7 @@
 h2 {
   text-align: center;
 }
+
+a:hover {
+  color: #fff;
+}

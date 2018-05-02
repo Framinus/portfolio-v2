@@ -20,7 +20,7 @@ export default function Header (props) {
               <a href="#writing">Writing</a>
             </li>
             <li>
-              <a href="#">About me</a>
+              <a href="#aboutme">About me</a>
             </li>
           </ul>
         </nav>
