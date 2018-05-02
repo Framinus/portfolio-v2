@@ -1,6 +1,13 @@
 .writing-container {
   align-items: flex-start;
+  background-color: #7ACD93;
   display: flex;
   flex-direction: column;
+  margin: 20px;
+  padding: 20px;
   justify-content: flex-start;
+}
+
+.writing-container h2 {
+  align-self: center;
 }

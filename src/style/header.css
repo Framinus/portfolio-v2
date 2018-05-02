@@ -20,6 +20,10 @@ ul {
   text-align: center;
 }
 
+.subtitle {
+  text-align: center;
+}
+
 .navbar {
   display: flex;
   flex-direction: column;

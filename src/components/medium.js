@@ -10,12 +10,12 @@ export default function MediumArticle(props) {
         </a>
         <article>{props.teaser}</article>
       </div>
-      <img
+      {/* <img
         src={props.imageurl}
         className="article-image"
         height="100"
         width="100"
-      />
+      /> */}
     </section>
   );
 }

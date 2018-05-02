@@ -1,9 +1,10 @@
 .medium-article {
+  background-color: #fff;
   border: 1px solid black;
   box-shadow: 1px 2px;
   display: flex;
   flex-direction: row;
-  margin: 20px 10px;
+  margin: 10px;
   padding: 10px;
 }
 
@@ -25,6 +26,6 @@
 
 @media (min-width: 600px) {
   .medium-article {
-    margin: 40px 60px;
+    margin: 20px 60px;
   }
 }

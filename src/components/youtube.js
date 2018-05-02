@@ -1,4 +1,5 @@
 import React from 'react';
+import ResponsiveEmbed from 'react-responsive-embed'
 import '../style/youtube.css';
 
 export default function YT (props) {
@@ -13,15 +14,11 @@ export default function YT (props) {
         </p>
       </div>
       <div
-        className="video-player-16x9 video-player">
-        <iframe
-          title="API Demo Series"
-          src="https://www.youtube.com/embed/9ru0jZYbB04"
-          height="200"
-          width="375"
-          allow="autoplay; encrypted-media" allowFullScreen
+        className="video-container"
         >
-        </iframe>
+        <ResponsiveEmbed src="https://www.youtube.com/embed/9ru0jZYbB04"
+        allowFullScreen
+        />
       </div>
     </section>
   );

@@ -9,14 +9,15 @@ export default function Header (props) {
       <h1 className="my-name">
         James McCormack
       </h1>
+      <h3 className="subtitle">Software Engineer &#8226; Oakland, CA</h3>
       <div className="navbar">
         <nav className="menu left-menu">
           <ul>
             <li>
-              <a href="#">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <a href="#">Technical writing</a>
+              <a href="#writing">Writing</a>
             </li>
             <li>
               <a href="#">About me</a>
