@@ -1,5 +1,5 @@
 a {
-  color: #311B92;
+  color: #3a7175;
   text-decoration: none;
 }
 
@@ -10,12 +10,13 @@ ul {
 
 .header {
   background-color: #7ACD93;
-  color: #fff;
+  color: #fefefd;
   font-family: 'Nunito', sans-serif;
   padding: 20px;
 }
 
 .my-name {
+  color: #fff;
   margin: 10px auto;
   text-align: center;
 }

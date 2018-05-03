@@ -13,7 +13,7 @@ import './App.css';
 const muiTheme = getMuiTheme({
   palette: {
     primary1Color: greenA200,
-    accent1Color: deepPurple900,
+    accent1Color: '#3a7175',
   }
 })
 

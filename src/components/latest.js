@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import YouTube from './youtube';
+import '../style/latest.css';
 
 export default class LatestWork extends Component {
 
