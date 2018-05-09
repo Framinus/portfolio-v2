@@ -14,5 +14,6 @@
 @media (min-width: 600px) {
   .projects-container {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 }
