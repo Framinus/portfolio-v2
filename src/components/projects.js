@@ -26,6 +26,15 @@ export default class Projects extends Component {
           imageurl: "/images/roam-new-teaser.png",
           imagealt: "Roam website with nyc skyline as the background and a welcome message in the foreground."
         },
+        {
+          title: 'Patterns: A Memory Game',
+          description: 'A memory based game inspired by the classic Simon game!',
+          tech: 'JavaScript, JQuery, CSS',
+          gitlink: 'https://github.com/Framinus/simon-game',
+          livelink: 'http://patterns-memory-game.herokuapp.com/',
+          imageurl: '/images/patterns.png',
+          imagealt: 'Patterns game website still showing four primary color circles around a digital screen',
+        },
       ],
     }
   }
