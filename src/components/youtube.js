@@ -16,9 +16,11 @@ export default function YT (props) {
       <div
         className="video-container"
         >
-        <ResponsiveEmbed src="https://www.youtube.com/embed/9ru0jZYbB04"
-        allowFullScreen
-        />
+        <div className="video-wrapper">
+          <ResponsiveEmbed src="https://www.youtube.com/embed/9ru0jZYbB04"
+                           allowFullScreen
+          />
+        </div>
       </div>
     </section>
   );
