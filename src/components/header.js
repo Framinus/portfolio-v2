@@ -9,15 +9,18 @@ export default function Header (props) {
       <h1 className="my-name">
         James McCormack
       </h1>
-      <h3 className="subtitle">Software Engineer &#8226; Oakland, CA</h3>
+      <h3 className="subtitle">Software Engineer &#8226; East Bay, CA</h3>
       <div className="navbar">
         <nav className="menu left-menu">
           <ul>
             <li>
-              <a href="#projects">Projects</a>
+              <a href="#professional">Professional Experience</a>
             </li>
             <li>
               <a href="#writing">Writing</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
             </li>
             <li>
               <a href="#aboutme">About me</a>
@@ -29,11 +32,6 @@ export default function Header (props) {
             <li>
               <a href="https://github.com/framinus">
               <i className="fab fa-github-square"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/jamesinbrevity">
-              <i className="fab fa-twitter-square"></i>
               </a>
             </li>
             <li>
