@@ -1,0 +1,13 @@
+.professional-container {
+  background-color: #d2dfe0;
+  margin: 20px;
+  padding: 20px;
+}
+
+.professional-container p {
+  margin: 10px;
+}
+
+.pro-tech-stack {
+  font-style: italic;
+}
